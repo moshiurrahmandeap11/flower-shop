@@ -1,0 +1,379 @@
+.lato-thin {
+  font-family: "Lato", serif;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", serif;
+}
+
+.hero {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 178px;
+}
+
+.hero-description {
+  margin-left: 240px;
+}
+
+.hero-description h1 {
+  font-weight: 800;
+  font-size: 75px;
+  margin-bottom: 32px;
+  line-height: 96px;
+  color: rgb(39, 39, 39);
+  text-align: left;
+  margin-right: 97px;
+}
+
+.hero-description p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 32px;
+}
+
+.hero-description button {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background-color: rgb(229, 84, 115);
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.hero-image {
+  margin-right: 240px;
+  margin-top: 50px;
+}
+
+/* hero section end */
+
+/* featured section start */
+
+.featured {
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.featured h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: rgb(39, 39, 39);
+  margin-bottom: 24px;
+}
+
+.featured p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.featured-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.featured-container .div1 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+
+.featured-container .div1 img {
+  padding: 110px 78px 0px 78px;
+}
+
+.featured-container .div2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+
+.featured-container .div2 img {
+  padding: 117px 47px 51px 47px;
+}
+
+.featured-container .div3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  margin-right: 240px;
+  margin-bottom: 32px;
+}
+
+.featured-container .div3 img {
+  padding: 67px 75px 0 75px;
+}
+
+.featured-container figcaption {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  /* text-align: center; */
+}
+
+.featured-container figcaption a {
+  color: rgb(39, 39, 39);
+}
+
+.featured-container figure figcaption {
+  margin-left: 120px;
+}
+
+/* featured end */
+
+/* delivery start */
+
+.delivery {
+  width: 1440px;
+  height: 320px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-bottom: 128px;
+}
+
+.delivery-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 86px 175px;
+}
+
+.delivery-container div {
+  text-align: center;
+}
+
+.delivery-container div img {
+  margin-bottom: 24px;
+}
+
+/* delivery end */
+
+/* hot deal start */
+
+.hot-deal {
+  /* width: 1600px; */
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hot-deal .hot-text {
+  margin-left: 390px;
+  /* margin-right: 186px; */
+}
+
+.hot-deal .hot-text h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1px;
+  color: rgb(39, 39, 39);
+  margin-bottom: 32px;
+}
+
+.hot-deal .hot-text span {
+  color: rgb(229, 84, 115);
+  margin-bottom: 24px;
+}
+
+.hot-deal .hot-text p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.hot-deal .hot-text .hot-btn {
+  text-align: center;
+}
+
+.hot-deal .hot-text button {
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+}
+
+.hot-deal .hot-image {
+  margin-right: 390px;
+  margin-bottom: 100px;
+  /* margin-left: 186px; */
+}
+
+/* hot deal end */
+
+/* instagram start */
+
+.instagram {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.instagram h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(39, 39, 39);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.instagram p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.instagram-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 128px;
+}
+
+/* instagram end */
+
+/* newsletter start */
+
+.newsletter {
+  width: 1440px;
+  height: 450px;
+  background-image: url(https://i.ibb.co.com/DQrXnVp/Rectangle-9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 128px;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-container h3 {
+  margin-top: 130px;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(39, 39, 39);
+  margin-bottom: 16px;
+}
+
+.newsletter-container p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 48px;
+}
+
+.newsletter-container .news-input input {
+  width: 700px;
+  height: 64px;
+  padding-left: 22px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.newsletter-container .news-input button {
+  padding: 18px 31px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+/* newsletter end */
+
+/* footer start */
+
+footer{
+    background: rgb(17, 16, 16);
+    height: 450px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 128px;
+}
+
+.footer-container h3{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.footer-container h3 span{
+    color: rgb(229, 84, 115);
+}
+
+.footer-container .p1 {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.footer-container .p2{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.4);
+}
